@@ -115,8 +115,6 @@ void loadCustomerFromFile(ifstream& inputFile) {
               >> password;
 }
 
-
-
     // display() - outputs all customer information in a neat, formatted manner
     void display() const {
         cout << "Customer Information:" << endl;
